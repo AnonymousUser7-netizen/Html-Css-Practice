@@ -1,0 +1,36 @@
+.container{
+  font-family: Arial;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgba(200, 200, 200, 0.823);
+  width: 300px;
+  border-radius: 6px;
+}
+
+.flexbox{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+.notifications{
+  background-color: rgb(49, 109, 245);
+  border: none;
+  color: white;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-right: 10px;
+  padding-left: 10px;
+  font-size: 14px;
+  border-radius: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: opacity 0.15s;
+}
+
+.notifications:hover{
+  opacity: 0.7;
+}
